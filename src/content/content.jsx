@@ -19,13 +19,13 @@ const YouTubeRow = ({ videoIds }) => {
   );
 };
 
-// Example Usage:
+
 const App = () => {
-  const videos = ["dQw4w9WgXcQ", "3JZ_D3ELwOQ", "L_jWHffIx5E"]; // Replace with actual video IDs
+  const videos = ["dQw4w9WgXcQ", "3JZ_D3ELwOQ", "L_jWHffIx5E"]; 
 
   return (
-    <div className="p-8">
-      <h2 className="text-xl font-semibold mb-4">YouTube Videos</h2>
+    <div className="mt-24 p-6"> 
+      <h2 className="text-2xl font-bold mb-6"></h2> 
       <YouTubeRow videoIds={videos} />
     </div>
   );

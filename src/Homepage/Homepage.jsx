@@ -9,9 +9,9 @@ import styled from "styled-components";
 function Dashboard() {
   // New YouTube video IDs
   const videoIds = [
-    "RgKAFK5djSk", "Ffch7yJ31ak", "j59qQ7YWLxw", // Tech
+     "j59qQ7YWLxw", // Tech
     "VYOjWnS4cMY", "3tmd-ClpJxA", "LHCob76kigA", // Entertainment
-    "mgmVOuLgFB0", "ZXsQAXx_ao0", "UBRl7zZ9WUY"  // Motivation
+    "mgmVOuLgFB0", "ZXsQAXx_ao0"  // Motivation
   ];
 
   return (
@@ -39,8 +39,8 @@ function Dashboard() {
                   <VideoCard
                     key={index}
                     videoId={id}
-                    title={`Video ${index + 1}`}
-                    description="A great video to watch!"
+                    
+                    
                   />
                 ))}
               </VideoGrid>
